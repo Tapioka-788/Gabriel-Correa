@@ -1,0 +1,12 @@
+@import url(./m_header.css);
+@import url(./m_section.css);
+@import url(./m_footer.css);
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    margin: 0;
+
+    overflow: hidden;
+}

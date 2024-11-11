@@ -1,0 +1,17 @@
+footer {
+    width: 100vw;
+    height: 7vh;
+  
+    background-color: yellow;
+  
+    align-content: center;
+    margin-top: -16vh;
+  }
+  
+  #china {
+    display: flex;
+    flex-direction: row;
+  
+    justify-content: space-evenly;
+  }
+  

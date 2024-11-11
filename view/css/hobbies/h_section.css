@@ -1,0 +1,92 @@
+section {
+    width: 100vw;
+    height: 100vh;
+  
+    margin-top: -10vh;
+    padding-top: 10vh;
+  
+    background-image: url("https://th.bing.com/th/id/R.c2080d1b548ba6b24250171b457f9af8?rik=r%2bmeh7Hec%2fidyw&pid=ImgRaw&r=0");
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    display: flex;
+    flex-direction: row;
+  
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #foto {
+    width: 32vw;
+    height: 60vh;
+  
+    background-color: rgba(255, 20, 147, 0.4);
+
+    
+    border: solid 0.2vw white;  
+    border-radius: 2vw;
+  }
+  
+  #imagem {
+    width: 30vw;
+    height: 56vh;
+    margin: 2vh 1vw;
+
+    border: solid 0.2vw white;
+  
+    border-radius: 2vw;
+  }
+  
+  #texto {
+    width: 30vw;
+    height: 40vh;
+  
+    background: rgba(255, 255, 255, 0.7);
+  
+    border-radius: 2vw;
+  
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #nome {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #sobrenome {
+    margin-left: 0.5vw;
+    color: rgb(162, 0, 86);;
+  }
+  
+  #botao_texto {
+    width: 10vw;
+    height: 5vh;
+  
+  
+    background-color: rgba(255, 20, 147, 0.4);
+
+    
+    border: solid 0.2vw white;  
+    border-radius: 2vw;
+  }
+  
+  #botao_texto:hover {
+  
+    background-color: rgba(255, 20, 147, 0.7);
+  
+    transform: scale(1.01);
+    cursor: pointer;
+  }
+  
+  .caneta {
+    height: 4vh;
+  
+    margin: 0.5vh;
+  
+    text-align: center;
+  }

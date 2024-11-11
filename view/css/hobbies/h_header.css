@@ -1,0 +1,52 @@
+header {
+    width: 100vw;
+    height: 10vh;
+  
+    display: flex;
+    flex-direction: row;
+  
+    justify-content: space-evenly;
+  }
+  
+  .caminhos {
+    width: 10vw;
+    height: 5vh;
+  
+    margin: 2.5vh;
+    padding-top: 0.25vw;
+    background-color: rgba(255, 255, 255, 0.5);
+  
+    border-radius: 2vw;
+  }
+  
+  #Hnome {
+    width: 17.5vw;
+    height: 5vh;
+  
+    border-radius: 1vw;
+  
+    text-align: center;
+    margin: 2.5vh;
+  
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  #Hnominho {
+    margin-top: 0.25vh;
+  }
+  
+  .caneta {
+    height: 4vh;
+  
+    margin: 0.5vh;
+  
+    text-align: center;
+  }
+  
+  .caminhos:hover {
+    background-color: cyan;
+  
+    transform: scale(1.01);
+    cursor: pointer;
+  }
+  
